@@ -1,0 +1,155 @@
+.contenedor{
+    max-width: 140rem;
+    margin: 0 auto;
+}
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+body{
+    background: linear-gradient(to bottom, #12c2e9, #c471ed, #f64f59);
+    font-family: "Unbuntu-Italic";
+}
+@font-face {
+    font-family: "Unbuntu-Italic";
+    src: url(../fonts/Ubuntu-Italic.ttf);
+}
+@font-face {
+    font-family: "TradeWinds-Regular";
+    src: url(../fonts/TradeWinds-Regular.ttf);
+}
+
+nav{
+    background: linear-gradient(to top, #2980b9, #6dd5fa, #12c2e9);
+}
+.log{
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+}
+.lp{
+    border-radius: 60%;
+    width: 100px;
+    height: 100px;
+}
+.boton{
+    display: flex;
+    margin: 20px auto;
+}
+.menu .item{
+    display: inline-block;
+    text-align: center;
+}
+.menu .item a{
+    color:black;
+    text-decoration: none;
+    font-size: 1.9rem;
+    font-family:"TradeWinds-Regular";
+    margin: 75px;
+}
+h1{
+    text-align: center;
+    font-size: 2.7rem;
+    margin: 50px auto;
+}
+.text{
+    display: flex;
+    justify-content: center;
+}
+.intro{
+    font-weight: bold;
+    margin:50px auto;
+    width: 900px;
+    height: 130px;
+}
+/*-----------------------------Sección de Imagenes-------------------*/
+.stitle{
+    padding: 20px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.void{
+    margin: 15rem;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+.boton a{
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    justify-content: space-around;
+}
+.cont{
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.cont2{
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.button{
+    margin: 15px auto;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 2.5rem;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+}
+
+@media (min-width: 768px)  {
+     .grid{
+        grid-template-columns: repeat (3, auto);
+     }
+}
+.productos{
+    padding: 1rem;
+    background-color:#3a0555
+}
+.prod_nombre{
+    font-size: 3rem;
+    color: white;
+}
+.descripcion{
+    font-size: 1.5rem;
+    color: white;
+}
+.prod_precio{
+    font-size: 2rem;
+    color: white;
+}
+.prod_nombre,
+.descripcion,
+.prod_precio {
+    margin: 1rem 0;
+    text-align: center;
+    line-height: 1;
+}
+.prod_img{
+    max-width: 100%;
+    height: 500px;
+}
