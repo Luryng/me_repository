@@ -4,62 +4,94 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=" Pringles Servicio Técnico de Computadoras, Celulares, Electrodomésticos y mucho más.">
     <link rel="icon" href="./img/favicon.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <title>STeC</title>
 </head>
 <body>
-    <div class="log">
-        <img id="top" class="lp" src="./img/nlogo.jpg" alt="Logo">
-    </div>
-    <nav>       
-        <div class="boton">
-            <ul class="menu">
-                <li class="item"><a href="./index.html">Inicio</a></li>
-                <li class="item"><a href="./pages/serv.html">Servicios</a></li>
-                <li class="item"><a href="./pages/prod.html">Productos</a></li>
-                <li class="item"><a href="./pages/conct.html">Conctactos</a></li>
+<header>
+  <img class="logo-uno" src="/me_repository/img/nlogo.jpg" alt="">
+  <input type="checkbox" name="btn" id="btn-menu">
+  <label for="btn-menu"> <img src="/me_repository/img/nlogo.jpg" alt="icon"></label>
+
+<nav class="menu">
+  <ul>
+      <li> <a href="./index.html"> Inicio </a> </li>
+      <li> <a href="./pages/serv.html"> Servicios </a></li>
+      <li> <a href="./pages/newprod.html"> Producto </a></li>
+      <li> <a href="./pages/conct.html"> Contáctenos </a></li>
+  </ul> 
+</nav>
+</header>
+  <!--<nav class="navbar navbar-expand-sm bg-#12c2e9">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img class="lp" src="/me_repository/img/nlogo.jpg" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse container-fluid" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/serv.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/newprod.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/conct.html">Contactanos</a>
+              </li>
             </ul>
+          </div>
         </div>
-    </nav>
-    <header>
-            <h1>Pringles Servicio Técnico </h1>
-            <section class="text">
-                <p class="intro">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe deleniti natus incidunt? Recusandae doloremque fugiat a consequuntur cum tenetur reiciendis porro maiores qui at in ad, molestias dignissimos sit totam.
-                Repudiandae dolores mollitia inventore accusamus iusto totam omnis! Omnis nesciunt ducimus ipsum voluptate magni nam tenetur officiis vel laboriosam quisquam quas unde, pariatur ad nisi! Doloribus fugiat autem vero suscipit!
-                Mollitia aliquam voluptatum qui? Ducimus quaerat adipisci sunt id ullam quo voluptatem tempora earum vel dolores sapiente, quia, sit tempore blanditiis ab asperiores magnam, perferendis facere corrupti. Facilis, odit unde!</p>
-            </section>
-    </header>
+      </nav>-->
+    <section class="hero">
+        <h1 class="title-ini animate__animated animate__fadeInDown">Pringles Servicio Técnico </h1>
+        <p class="intro">Somos una empresa familiar originada en San Juan, Argentina. Nos dedicamos al Servicio Técnico y la venta de electrodomésticos, buscamos satisfacer a nuestros clientes con el mejor Servicio/Producto-Precio-Calidad.</p>
+        <!--<a href="#">Enviar Mensaje</a>-->
+    </section>
     <main>
-        <section class="cont">
-            <div>
-                <h4 class="stitle">Reparación</h4>
-                <img src="./img/1.png" alt="reparacion" width="500px" height="300px">
-            </div>
-            <div>
-                <h4 class="stitle">Optimización</h4>
-                <img src="./img/1.png" alt="optimizacion" width="500px" height="300px">
-            </div>
-            <div>
-                <h4 class="stitle">Programas</h4>
-                <img src="./img/1.png" alt="software" width="500px" height="300px">
-        </section>
-        <section class="cont2">
+      <div class="containeder grilla-new">
+
+          <div class="grilla-main">
+              <h4 class="stitle">Reparación</h4>
+              <img class="imginicio" src="/me_repository/img/repair.jpg" alt="reparacion" width="500px" height="300px">
+          </div>
+
+          <div class="grilla-main">
+              <h4 class="stitle">Optimización</h4>
+              <img class="imginicio" src="/me_repository/img/opti.jpg" alt="optimizacion" width="500px" height="300px">
+          </div>
+
+          <div class="grilla-main">
+              <h4 class="stitle">Programas</h4>
+              <img class="imginicio" src="/me_repository/img/programs.jpg" alt="software" width="500px" height="300px">
+          </div>
         </div>
-        <div>
-            <h4 class="stitle">Hardware</h4>
-            <img src="./img/1.png" alt="hardware" width="500px" height="300px">
+        <div class="containeder2 grilla-new2">
+
+          <div class="grilla-main">
+              <h4 class="stitle">Hardware</h4>
+              <img class="imginicio" src="/me_repository/img/hardw.jpg" alt="hardware" width="500px" height="300px">
+          </div>
+
+          <div class="grilla-main">
+              <h4 class="stitle">Sistema Operativo</h4>
+              <img class="imginicio" src="/me_repository/img/so.jpg" alt="SO" width="500px" height="300px">
+          </div>
+
+          <div class="grilla-main">
+              <h4 class="stitle">Consultas</h4>
+              <img class="imginicio" src="/me_repository/img/consulta.jpg" alt="SO" width="500px" height="300px">
+          </div>
         </div>
-        <div>
-            <h4 class="stitle">Sitema Operativo</h4>
-            <img src="./img/1.png" alt="SO" width="500px" height="300px">
-        </div>
-        <div>
-            <h4 class="stitle">Consultas</h4>
-            <img src="./img/1.png" alt="SO" width="500px" height="300px">
-        </div>
-        </section>
+      
+        
     </main>
 
     <section class="void">
@@ -72,3 +104,6 @@
 <footer>
 </footer>
 </html>
+
+<
+

@@ -1,0 +1,89 @@
+
+$violeta: #3a0555;
+$salmon: #f64f59;
+body{
+    h1{
+        font-weight: bold;
+        text-align: center;
+        font-size: 3rem;
+        margin: 50px auto;ç    
+    }
+    .text{
+    display: flex;
+    justify-content: center;
+    }
+    .intro{
+        font-weight: bold;
+        font-size: 1.7rem;
+        margin:20px auto;
+        width: 800px;
+        height: 80px;
+        text-align: center;
+    }
+    .button{
+
+    }
+}
+.menu{
+    ul{
+        a{
+            font-size: 20px;
+            font-family: "TradeWinds-Regular";
+        }
+        margin: 0;
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: space-evenly;
+        li a{
+            display: block;
+            padding: 30px 40px;
+            color: #fff;
+            text-decoration: none;
+        }
+        li:hover{
+            background-color: #f64f59;
+        }
+    }
+}
+//--------------------------Image Section---------------------------//
+
+.cont{
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    justify-content:space-evenly;
+
+    .stitle{
+        padding: 20px;
+        text-align: center;
+        font-size: 2rem;
+        font-weight: bolder;
+    }
+    .iminicio{
+        max-height: 300px;
+        width: 500px;
+        border: #c471ed 5px solid;
+    }
+}
+.cont2{
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    justify-content:space-evenly;
+
+    .stitle{
+        padding: 20px;
+        text-align: center;
+        font-size: 2rem;
+        font-weight: bolder;
+    }
+    .iminicio{
+        max-height: 300px;
+        width: 500px;
+        border: #c471ed 5px solid;
+    }
+}
+
+
+
