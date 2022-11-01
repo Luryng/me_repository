@@ -6,56 +6,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../img/favicon.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <meta name="description" content="Aquí usted prodrá consultar por cualquier duda/pregunta que tenga sobra nuestros servicios o productos.">
+    <meta name="keywords" content="Dirección, San Juan, Contacto, Número">
     <link rel="stylesheet" href="../css/estilo.css">
     <title>STeC | Conctactos</title>
 </head>
 <body>
   <header>
-    <img class="logo-uno" src="/me_repository/img/nlogo.jpg" alt="">
+    <img class="logo-uno" src="/me_repository/img/icon/nlogo.jpg" alt="logo">
     <input type="checkbox" name="btn" id="btn-menu">
-    <label for="btn-menu"> <img src="/me_repository/img/nlogo.jpg" alt="icon"></label>
+    <label for="btn-menu"> <img src="/me_repository/img/icon/nlogo.jpg" alt="icon"></label>
   
   <nav class="menu">
     <ul>
-        <li> <a href="../index.html"> Inicio </a> </li>
-        <li> <a href="../pages/serv.html"> Servicios </a></li>
-        <li> <a href="../pages/newprod.html"> Producto </a></li>
-        <li> <a href="../pages/conct.html"> Contáctenos </a></li>
+      <li> <a href="/me_repository/index.html"> Inicio </a> </li>
+      <li> <a href="/me_repository/pages/serv.html"> Servicios </a></li>
+      <li> <a href="/me_repository/pages/productos.html"> Productos </a></li>
+      <li> <a href="/me_repository/pages/conct.html"> Contáctenos </a></li>
+      <li> <a href="/me_repository/pages/nosotros.html">Nosotros</a> </li>
     </ul> 
   </nav>
   </header>
-<!----------Old Nav
-    <nav class="navbar navbar-expand-sm bg-#12c2e9">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img class="lp" src="/me_repository/img/nlogo.jpg" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="/me_repository/index.html">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/me_repository/pages/serv.html">Servicios</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/me_repository/pages/newprod.html">Productos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/me_repository/pages/conct.html">Contactanos</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-------------------->
 <main>
-    <h1>Contactanos!!</h1>
-    <h2>A través de:</h2>
-    <section class="socialmedia">
+  <div class="contact_form">
+    <div class="formulario">      
+      <h1 class="h1">Formulario de contacto</h1>
+        <h3 class="h3">Escríbenos y en breve los pondremos en contacto contigo</h3>
+          <form action="" method="post">       
+                <p class="p">
+                  <label for="nombre" class="colocar_nombre">Nombre
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                </p>
+              
+                <p class="p">
+                  <label for="email" class="colocar_email">Email
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                </p>
+            
+                <p class="p">
+                  <label for="telefone" class="colocar_telefono">Teléfono
+                  </label>
+                    <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                </p>    
+              
+                <p class="p">
+                  <label for="asunto" class="colocar_asunto">Asunto
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                </p>    
+              
+                <p class="p">
+                  <label for="mensaje" class="colocar_mensaje">Mensaje
+                    <span class="obligatorio">*</span>
+                  </label>                     
+                     <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                </p>                    
+              
+                <button type="submit" name="enviar_formulario" id="enviar" class="button"><p>Enviar</p></button>
 
-    </section>
+                <p class="aviso p">
+                  <span class="obligatorio"> * </span>los campos son obligatorios.
+                </p>          
+          </form>
+    </div>  
+</div>
 </main>
     <section class="void">
     </section>
